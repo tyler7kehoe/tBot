@@ -1,7 +1,5 @@
 # bot.py by Tyler Kehoe
-# TODO: figure out exception handling for 8 ball
 
-# Implementation ideas:
 
 import discord
 import random
@@ -13,7 +11,7 @@ bot = commands.Bot(command_prefix='t!')
 
 @bot.event
 async def on_ready():
-    print('tBot is ready :D')
+    print('tBot is ready!')
 
 
 # message when member joins
